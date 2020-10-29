@@ -285,7 +285,7 @@ input:focus {
   flex: row;
   align-items: center;
   justify-content: center;
-  overflow:auto;
+  overflow: hidden;
 }
 
 
@@ -299,6 +299,7 @@ input:focus {
   text-align: center;
   align-items: center;
   justify-content: center;
+  list-style: circle;
 }
 
 
@@ -326,7 +327,7 @@ input:focus {
 #video {
   width: 45%;
   margin: auto;
- padding: 0 10px 0 0;
+ padding: 0 20px 0 0;
 
 }
 
