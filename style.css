@@ -161,14 +161,14 @@ html {
 }
 
 input {
-
+font-size: 20;
   height: 3vw;
   width: 20vw;
-text-transform: capitalize;
-
-
+  text-transform: capitalize;
  border-radius: 4px;
  outline: none;
+ padding: 0 0 0 0;
+ margin: auto;
 
 }
 
@@ -204,7 +204,6 @@ input:focus {
   height: 320px;
 }
 .container .box {
-
   background: rgba(134,44,223,0.5);
   max-width: 400px;
   height: 230px;
@@ -274,14 +273,14 @@ input:focus {
  padding-top: 50px;
   height: auto;
   width: 100%;
-
   background-color: #1a2c59;
   overflow: hidden;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #alqcontainer {
-
   display: flex;
   flex: row;
   align-items: center;
@@ -305,9 +304,10 @@ input:focus {
 
 #textcontainer {
   width: 100%;
-
-
+  padding: 0 0 0 0;
+  margin: auto;
 }
+
 #textcontainer li:hover {
   transform: scale(1.2);
   background-color: rgba(0, 0, 0, 0.5);
@@ -326,6 +326,7 @@ input:focus {
 #video {
   width: 45%;
   margin: auto;
+ padding: 0 10px 0 0;
 
 }
 
